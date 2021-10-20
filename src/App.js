@@ -2,13 +2,16 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import Component from "./componets/index"
 // import Profile from "./componets/profile/Profile"
-import PropsProfile from "./Props/props"
-import Bio from './componets/profile/Bio'
-import Skill from './componets/profile/Skill'
-import SocialLinks from './componets/profile/SocialLinks';
-import PassFunction from './Props/passFunction'
-import RenderChildProps from './Props/renderChildProps';
-import BioFunction from './Props/bioFunction'
+// import PropsProfile from "./Props/props"
+// import Bio from './componets/profile/Bio'
+// import Skill from './componets/profile/Skill'
+// import SocialLinks from './componets/profile/SocialLinks';
+// import PassFunction from './Props/passFunction'
+// import RenderChildProps from './Props/renderChildProps';
+// import BioFunction from './Props/bioFunction';
+// import StateComponent from './state/stateComponent';
+// import TimerComponent from './state/timer';
+import StyleComponent from './styleComponent/StyleComponent';
 
 function App() {
   return (
@@ -16,15 +19,19 @@ function App() {
       <header className="App-header">
         {/* <Component/> */}
         {/* <Profile/> */}
-        <PropsProfile/>
+        {/* <PropsProfile/>
         <PassFunction/>
-        <RenderChildProps/>
-        <div class="card" style={{width: "600px",marginTop:"20px"}}>
-          <div class="card-body">
+        <RenderChildProps/> */}
+        <div className="card" style={{width: "600px",marginTop:"20px"}}>
+          <div className="card-body">
               {/* <Bio name='Muhammad Sojib' title="Graphic Designer"/> */}
-              <BioFunction name='Muhammad Sojib' title="Graphic Designer"/>
+              {/* <BioFunction name='Muhammad Sojib' title="Graphic Designer"/>
               <Skill skillA="Adobe" skillB="Language"/>
-              <SocialLinks/>
+              <SocialLinks/> */}
+              {/* <StateComponent/> */}
+              {/* <TimerComponent/> */}
+              <StyleComponent/>
+
           </div>
         </div>
       </header>
