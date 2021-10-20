@@ -37,9 +37,12 @@ class TimerComponent extends Component {
     }
     setReset = () =>{
         this.setState({
-            count:0
+            count:0,
         })
+        clearInterval(this.setIntervalId)
+        this.setIntervalId = null
     }
+
     render() { 
         return (
             <>
