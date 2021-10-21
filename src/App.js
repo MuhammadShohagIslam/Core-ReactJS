@@ -11,7 +11,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import BioFunction from './Props/bioFunction';
 // import StateComponent from './state/stateComponent';
 // import TimerComponent from './state/timer';
-import StyleComponent from './styleComponent/StyleComponent';
+// import StyleComponent from './styleComponent/StyleComponent';
+import EventComponent from './eventComponent/eventComponent';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
               <SocialLinks/> */}
               {/* <StateComponent/> */}
               {/* <TimerComponent/> */}
-              <StyleComponent/>
+              {/* <StyleComponent/> */}
+              <EventComponent/>
 
           </div>
         </div>
