@@ -12,7 +12,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import StateComponent from './state/stateComponent';
 // import TimerComponent from './state/timer';
 // import StyleComponent from './styleComponent/StyleComponent';
-import EventComponent from './eventComponent/eventComponent';
+// import EventComponent from './eventComponent/eventComponent';
+import FormComponent from './formComponent/formComponent';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
               {/* <StateComponent/> */}
               {/* <TimerComponent/> */}
               {/* <StyleComponent/> */}
-              <EventComponent/>
+              {/* <EventComponent/> */}
+              <FormComponent/>
 
           </div>
         </div>

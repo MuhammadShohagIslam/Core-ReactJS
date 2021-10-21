@@ -14,6 +14,9 @@ import classes from '../styleComponent/StyleComponent.module.css'
         - Name
         - Listener Function
 
+    Two-Way Data Binding: We are showing data from state data to Users and in the same time,
+        when users changed data something, it is automatically update through setState(), it is called Two-Way-Data-Binding
+
 */
 const Input = styled.input`
     margin-top: 10px
