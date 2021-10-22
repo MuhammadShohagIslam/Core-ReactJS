@@ -40,3 +40,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* WebKit, Edge */
+::-webkit-input-placeholder {
+  color: deeppink;
+}
+/* Firefox 4-18 */
+:-moz-placeholder {
+  color: deeppink;
+  opacity: 1;
+}
+/* Firefox 19+ */
+::-moz-placeholder {
+  color: deeppink;
+  opacity: 1;
+}
+/* IE 10-11 */
+:-ms-input-placeholder {
+  color: deeppink;
+}
+/* Edge */
+::-ms-input-placeholder {
+  color: deeppink;
+}
+/* MODERN BROWSER */
+::placeholder {
+  color: deeppink;
+}

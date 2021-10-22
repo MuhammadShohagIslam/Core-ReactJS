@@ -13,7 +13,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import TimerComponent from './state/timer';
 // import StyleComponent from './styleComponent/StyleComponent';
 // import EventComponent from './eventComponent/eventComponent';
-import FormComponent from './formComponent/formComponent';
+// import FormComponent from './formComponent/formComponent';
+// import UncontrolForm from './formComponent/uncontrolForm/uncontrolFrom';
+import Form from './formComponent/form';
 
 function App() {
   return (
@@ -34,7 +36,9 @@ function App() {
               {/* <TimerComponent/> */}
               {/* <StyleComponent/> */}
               {/* <EventComponent/> */}
-              <FormComponent/>
+              {/* <FormComponent/> */}
+              {/* <UncontrolForm/> */}
+              <Form/>
 
           </div>
         </div>
